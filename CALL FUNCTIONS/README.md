@@ -18,15 +18,17 @@ return 0;
 
 **Crear una función**
 
-Para crear (a menudo denominado declarar) una funcion propia, se tiene que especificar el nombre de la función, seguido de paréntesis ()y llaves {}:
+Para crear (a menudo llamado declarar) una funcion propia, se tiene que especificar el nombre de la función, seguido de paréntesis ()y llaves {}:
 
-void nombre_funcion() {
-  // codigo a ejecutarse
-}
+**void nombre_funcion() {**
+|---------------------------------|
+ // codigo a ejecutarse 
+**}**
+
 
 **Ejemplo explicado**
 
-**Nombre_funcion()** es el nombre de la función que se sugiere tenga un nombre del roceso que realiza.
+**nombre_funcion()** es el nombre de la función que se sugiere tenga un nombre del roceso que realiza.
 **void** Significa que la función no tiene un valor de retorno. En clase explicare mas sobre los valores de retorno.
       Dentro de la función (el cuerpo), agregar código que defina lo que debe hacer la función
 
@@ -34,13 +36,27 @@ void nombre_funcion() {
 
 Las funciones declaradas no se ejecutan inmediatamente. Se guardan para su uso posterior y se ejecutarán al ser invocadas. Para llamar a una función, escriba el nombre de la función seguido de dos paréntesis () y un punto y coma.;
 
-En el siguiente ejemplo, **miFuncion()** se utiliza para imprimir un texto (la acción), cuando se llama:
+En el siguiente ejemplo, **MiFuncion()** se utiliza para imprimir un texto (la acción), cuando se llama:
+
+// Crea una funcion que será llamada
+void MiFuncion() 
+| ---------------------------------|
+{printf("Mi nombre es Miguel Angel Perez Solano");   }
+|                                  |
+
+// Esta es la funcion principal
+
+int main() {
+|----------------------------------|
+  MiFuncion(); // llamar a la funcion
+  return 0;
+}
+// Salida "Mi nombre es Miguel angel Perez Solano"
+|                                  |
 
 
 
-
-
-
+Analizar los ejercicios de esta carpeta para mayor comprension....MAPS
 
 
 
