@@ -11,10 +11,11 @@ Las variables en C se distinguen principalmente por su alcance y tiempo de vida:
 
 Durante nuestro curso, ya hemos creado funciones y en especifico la funcion principal; main() que es una función que se utiliza para ejecutar código y printf() es una función que se utiliza para generar/imprimir texto en la pantalla: Ejemplo:
 
->**int main() {**
- ** printf("INSTITUTO TECNOLOGICO DE OAXACA!");**
-  **return 0;**
-**}**
+|**int main() {**                              |
+|----------------------------------------------|
+|printf("INSTITUTO TECNOLOGICO DE OAXACA!");   |
+|return 0;                                     |
+| **}**                                        |
 
 **Crear una función**
 
