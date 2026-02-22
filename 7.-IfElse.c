@@ -1,6 +1,6 @@
-/*Instituto Tecnologico de Oaxaca
-Materia: Programacion estructurada*/
-
+/*Nombre: Miguel Angel Pérez Solano
+Grupo : E2A Materia: Programación Estructurada
+Instituto Tecnologico de Oaxaca.*/
 
 #include <stdio.h>
 
@@ -16,4 +16,5 @@ short int Sensor_temperatura;
 	    	printf("TEMPERTURA NORMAL");
     return 0;
 }
+
 
