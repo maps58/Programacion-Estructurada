@@ -1,0 +1,22 @@
+
+
+int led = 13;
+int sw = 2;
+
+void setup() {
+  // put your setup code here, to run once:
+
+  pinMode (led,OUTPUT);
+  pinMode (sw,INPUT);
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+
+  if (digitalRead (sw) == HIGH){
+       digitalWrite(led,HIGH);}
+       else {
+       digitalWrite(led,LOW);}
+
+}

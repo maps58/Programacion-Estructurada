@@ -1,9 +1,9 @@
 /*Nombre: Miguel Angel Pérez Solano
 Grupo : E2A Materia: Programación Estructurada
 Instituto Tecnologico de Oaxaca.*/
-
-#include <stdio.h>
-#include <stdbool.h>
+ /*Nombre: Miguel Angel Pérez Solano
+Grupo : E2A Materia: Programación Estructurada
+Instituto Tecnologico de Oaxaca.*/
 
 int main() {
 
