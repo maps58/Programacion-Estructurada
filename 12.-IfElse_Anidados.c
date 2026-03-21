@@ -1,6 +1,7 @@
- /*Nombre: Miguel Angel P�rez Solano
-Grupo : E2A Materia: Programaci�n Estructurada
-Instituto Tecnologico de Oaxaca.*/
+/*Instituto Tecnológico de Oaxaca
+Materia: Programación estructurada
+Autor: Miguel Angel Pérez Solano
+Departamento de Ingeniería Eléctrica y Electronica*/
 
 #include <stdio.h>
 int main(void)
@@ -18,7 +19,7 @@ scanf("%d/%d/%d/%d/%d",&n1,&n2,&n3,&n4,&n5);
 //Si n3 es < que n2 se actualiza menor.
 	if (n3<menor)  menor=n3;
 
-//Se procede de forma an�loga con n4 y n5
+//Se procede de forma análoga con n4 y n5
 	if (n4<menor)  menor=n4;
 
    if (n5<menor)   menor=n5;
