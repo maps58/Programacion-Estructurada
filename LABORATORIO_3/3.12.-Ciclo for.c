@@ -1,5 +1,8 @@
 /*Instituto Tecnologico de Oaxaca
-Materia: Programacion estructurada*/
+Materia: Programacion estructurada
+Autor: Miguel Angel Pérez Solano
+Departamento de Ingniería eléctrica y Electronica*/
+
 
 #include <stdio.h>
 main()  {
