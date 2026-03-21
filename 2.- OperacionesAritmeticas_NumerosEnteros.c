@@ -1,9 +1,11 @@
-/*Miguel Angel P閞ez Solano
-Instituto Tecnol骻ico de Oaxaca
-Departamento de Ingenier韆 El閏trica y Electr髇ica*/
+/*Instituto Tecnol贸gico de Oaxaca
+Materia: Programaci贸n estructurada
+Autor: Miguel Angel P茅rez Solano
+Departamento de Ingenier铆a El茅ctrica y Electronica*/
 
-//Programa que ejecuta las 5 operaciones aritmeticas: Suma, Resta, 
-//Multiplicacion, Divisi髇 y M骴ulo con 2 operandos enteros.
+/*Programa que ejecuta las 5 operaciones aritmeticas: Suma, Resta, 
+Multiplicacion, Divisi贸n y M贸dulo con 2 operandos enteros"
+
 #include <stdio.h>
 
 int main(){
