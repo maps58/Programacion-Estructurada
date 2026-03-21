@@ -1,7 +1,7 @@
-/*Miguel Angel Pérez Solano
-Instituto Tecnologico de Oaxaca
-DEpartamento de Ingeniería Electrica y electronica
-Materia: Programacion estructurada*/
+/*Instituto Tecnológico de Oaxaca
+Materia: Programación estructurada
+Autor: Miguel Angel Pérez Solano
+Departamento de Ingeniería Eléctrica y Electronica*/
 
 // Este programa calcula resistencia respecto a la corriente y voltaje de un circuito (LEY DE OHM);
 
