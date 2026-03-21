@@ -1,9 +1,11 @@
-/*Miguel Angel Pérez Solano
-Instituto Tecnológico de Oaxaca
-Departamento de Ingeniería Eléctrica y Electrónica*/
+/*Instituto TecnolÃ³gico de Oaxaca
+Materia: ProgramaciÃ³n estructurada
+Autor: Miguel Angel PÃ©rez Solano
+Departamento de IngenierÃ­a ElÃ©ctrica y Electronica*/
 
-//Programa que ejecuta las 5 operaciones aritmeticas: Suma, Resta, 
-//Multiplicacion y División con 2 de tipo punto flotante.
+/*Programa que ejecuta las 5 operaciones aritmeticas: Suma, Resta, 
+Multiplicacion y DivisiÃ³n con 2 de tipo punto flotante*/
+
 #include <stdio.h>
 
 int main(){
