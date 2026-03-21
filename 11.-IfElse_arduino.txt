@@ -1,4 +1,7 @@
-
+/*Instituto Tecnológico de Oaxaca
+Materia: Programación estructurada
+Autor: Miguel Angel Pérez Solano
+Departamento de Ingeniería Eléctrica y Electronica*/
 
 int led = 13;
 int sw = 2;
