@@ -1,3 +1,10 @@
+
+/*Instituto Tecnológico de Oaxaca
+Materia: Programación estructurada
+Autor: Miguel Angel Pérez Solano
+Departamento de Ingeniería Eléctrica y Electronica*/
+
+
 #include <stdio.h>
 #include <time.h> //para la funcion sleep()
 #include <unistd.h>
