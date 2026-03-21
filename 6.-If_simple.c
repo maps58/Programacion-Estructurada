@@ -1,6 +1,7 @@
-/*Nombre: Miguel Angel Pérez Solano
-Grupo : E2A Materia: Programación Estructurada
-Instituto Tecnologico de Oaxaca.*/
+/*Instituto Tecnológico de Oaxaca
+Materia: Programación estructurada
+Autor: Miguel Angel Pérez Solano
+Departamento de Ingeniería Eléctrica y Electronica*/
 
 #include <stdio.h>
 
