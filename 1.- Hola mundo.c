@@ -1,8 +1,9 @@
 
 
-/*Miguel Angel Pérez Solano
-Instituto Tecnológico de Oaxaca
-Departamento de Ingeniería Eléctrica y electronica*/
+/*Instituto TecnolÃ³gico de Oaxaca
+Materia: ProgramaciÃ³n estructurada
+Autor: Miguel Angel PÃ©rez Solano
+Departamento de IngenierÃ­a ElÃ©ctrica y Electronica*/
 
 //Programa "Hola Mundo".
 
@@ -11,8 +12,8 @@ Departamento de Ingeniería Eléctrica y electronica*/
  int main(){
  	
  printf("\tINSTITUTO TECNOLOGICO DE OAXACA\n");	
- printf("\tCarrera: Ingeniería Electronica\n");
- printf("Departamento de Ingeniería Eléctrica y Electrónica");
+ printf("\tCarrera: IngenierÃ­a Electronica\n");
+ printf("Departamento de IngenierÃ­a ElÃ©ctrica y ElectrÃ³nica");
  	
  	return 0;
  }
