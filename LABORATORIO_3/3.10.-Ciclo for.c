@@ -1,7 +1,7 @@
-/*Instituto Tecnologico de Oaxaca
-Materia: Programacion estructurada
+/*Instituto Tecnológico de Oaxaca
+Materia: Programación estructurada
 Autor: Miguel Angel Pérez Solano
-Departamento de Ingeniería eléctrica y Electronica*/
+Departamento de Ingeniería Eléctrica y Electronica*/
 
 
 #include <stdio.h>
