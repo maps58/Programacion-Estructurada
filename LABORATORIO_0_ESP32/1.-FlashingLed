@@ -1,0 +1,16 @@
+#include <Arduino.h>
+#define LED 5
+
+void setup() {
+  // Colocar aca el código de configuracion; se ejecuta solo una vez:
+  Serial.begin(9600)
+   pinMode(LED, OUTPUT);
+}
+
+void loop() {
+  // poner su código principal aca, se ejecutará en moput your main code here, to run repeatedly:
+  digitalWrite(LED, HIGH);
+  delay(500);
+  digitalWrite(LED, LOW);
+  delay(500);
+}
