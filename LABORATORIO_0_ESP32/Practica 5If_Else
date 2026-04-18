@@ -1,0 +1,20 @@
+#include <Arduino.h>
+
+#define LED  2
+#define switch  5
+
+void setup() {
+
+ pinMode(LED, OUTPUT);
+ pinMode(switch, INPUT_PULLUP);
+}
+
+void loop() {
+  int estado = digitalRead(switch);
+
+  if (estado == LOW) {
+    digitalWrite(LED,HIGH);   // Apagar LED cuando el switch está ON
+  } else {
+    digitalWrite(LED,LOW);  // Encender LED en caso contrario
+  }
+}
