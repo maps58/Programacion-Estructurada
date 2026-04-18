@@ -1,0 +1,16 @@
+//Código que genera una señal de 1kHz 
+
+#include <Arduino.h>
+#define LED 5
+
+void setup() {
+  Serial.begin(115200);
+   pinMode(LED, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(LED, HIGH);
+  delayMicroseconds(500);
+  digitalWrite(LED, LOW);
+  delayMicroseconds(500); 
+}
