@@ -8,7 +8,7 @@ void setup() {
 }
 
 void loop() {
-  // poner su código principal aca, se ejecutará en moput your main code here, to run repeatedly:
+  // poner su código principal aca, se ejecutará en modo bucle:
   digitalWrite(LED, HIGH);
   delay(500);
   digitalWrite(LED, LOW);
