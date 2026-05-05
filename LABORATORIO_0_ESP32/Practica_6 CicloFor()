@@ -1,28 +1,20 @@
+//Practica 6.
+#include <Arduino.h>
+#define LED  2
+#define sw1 12
+#define sw2 13
 
-  #include <Arduino.h>
-  #define LED_1 2
-  #define LED_2 5
-
-  void setup() {
-
-  pinMode(LED_1, OUTPUT);
-  pinMode(LED_2, OUTPUT);
-  }
-
-  void loop() {
-
-for (int i = 1; i <= 10; i++) {
-  digitalWrite(LED_1, HIGH);
-  delay(500);
-  digitalWrite(LED_1, LOW);
-  delay(500);
+void setup() {
+ pinMode(LED, OUTPUT);
+ pinMode(sw1, INPUT);
+ pinMode(sw2, INPUT);
 }
 
-for (int j = 1; j <= 5; j++) {
-  digitalWrite(LED_2, HIGH);
-  delay(500);
-  digitalWrite(LED_2, LOW);
-  delay(500);
+void loop() {
+  //Enciende LED solo cuando sw1 y sw2 estan cerrados
+  if (digitalRead(sw1) && digitalRead (sw2)) 
+    digitalWrite(LED,HIGH);  
+   else 
+    digitalWrite(LED,LOW);  
 }
-  }
   
