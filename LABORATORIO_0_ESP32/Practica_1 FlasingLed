@@ -1,5 +1,8 @@
+/* Práctica No. 1 (Aprender a configurar los GPIOs).
+Los ESP32’s traen por default un “led” conectado en la patilla 2 (built-in led)*/
+
 #include <Arduino.h>
-#define LED 5
+#define LED 2
 
 void setup() {
   // Colocar aca el código de configuracion; se ejecuta solo una vez:
