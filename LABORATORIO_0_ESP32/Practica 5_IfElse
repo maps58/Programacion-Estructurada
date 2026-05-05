@@ -1,10 +1,12 @@
-#include <Arduino.h>
 
+
+//Practica 5.
+
+#include <Arduino.h>
 #define LED  2
 #define switch  5
 
 void setup() {
-
  pinMode(LED, OUTPUT);
  pinMode(switch, INPUT_PULLUP);
 }
