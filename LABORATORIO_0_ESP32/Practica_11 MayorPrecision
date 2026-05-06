@@ -1,0 +1,28 @@
+#include <Arduino.h>
+const int potPin = 34;
+
+int leerADC(int pin) {
+  int suma = 0;
+  for(int i = 0; i < 10; i++) {
+    suma += analogRead(pin);
+  }
+  return suma / 10;
+}
+
+void setup() {
+  Serial.begin(9600);
+
+  analogReadResolution(12);        // 12 bits (0–4095)
+  analogSetAttenuation(ADC_11db);  // Rango ~0–3.3V
+}
+
+void loop() {
+  int valor = leerADC(potPin);
+  float voltaje = (valor / 4095.0) * 3.3;
+  Serial.print("ADC: ");
+  Serial.print(valor);
+  Serial.print(" | Voltaje: ");
+  Serial.println(voltaje, 3); // 3 decimales
+  delay(500);
+}
+
