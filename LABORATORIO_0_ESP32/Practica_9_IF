@@ -1,0 +1,30 @@
+//Practica 9
+#define sw 2
+#define led 13
+int conta = 0;
+int estadoAnterior = LOW;
+
+void setup() {
+  Serial.begin(9600);
+  pinMode(sw, INPUT);
+  pinMode(led, OUTPUT);
+}
+
+void loop() {
+  int estadoActual = digitalRead(sw);
+  // Detección de flanco de subida (pulsación válida)
+  if (estadoActual == HIGH && estadoAnterior == LOW) {
+    conta++;
+    Serial.println(conta);
+    delay(50); // anti-rebote básico
+  }
+  estadoAnterior = estadoActual;
+
+  // Generación de señal de 1 kHz cuando conta == 5
+  if (conta >= 5) {
+    Serial.println("Generando señal de 1kHz");
+    digitalWrite(led, HIGH);
+    delayMicroseconds(500);
+    digitalWrite(led, LOW);
+    delayMicroseconds(500);
+  }}
