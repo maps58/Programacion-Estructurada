@@ -1,0 +1,22 @@
+#include<Arduino.h>
+
+// Potenciometro conectado al GPIO 34 (Analog ADC1_CH6) 
+const int potPin = 34;
+
+// variable para almacenar al valor del pot
+
+void setup() {
+  Serial.begin(9600);
+}
+
+void loop() {
+  // Leyendo el vlor del voltaje del potenciometro
+  int valorAnalogico = analogRead(potPin);
+  float voltaje = (valorAnalogico/4095.0)*3.3;
+
+  Serial.print(valorAnalogico);
+  Serial.print(" = ");
+  Serial.print( voltaje);
+  Serial.println("volts");
+  delay(500); //pequeña pausa para estabilidad.
+}
