@@ -1,0 +1,64 @@
+//Práctica 13: Semaforo de 2 vias.
+#include <Arduino.h>
+// Semáforo Oeste
+#define RojoW      2
+#define AmarilloW  3
+#define VerdeW     4
+
+// Semáforo Este
+#define RojoE      5
+#define AmarilloE  6
+#define VerdeE     7
+
+// Variables de tiempo
+const int flowTime = 5000;          // 10 segundos
+const int changeDelay = 2000;        // 2 segundos
+const int blinkTime = 500;           // 0.5 segundos
+
+// Función para parpadear amarillo
+void blinkYellow(int Yellow)
+{
+    for (int i = 0; i < 5; i++)
+    {
+        digitalWrite(Yellow, HIGH);
+        delay(blinkTime);
+
+        digitalWrite(Yellow, LOW);
+        delay(blinkTime);
+    } }
+
+void setup() {
+    // Configurar LEDs como salida
+    for (int i = 2; i <= 7; i++){
+        pinMode(i, OUTPUT);
+    }
+
+    // Estado inicial   
+    digitalWrite(RojoW, LOW);
+    digitalWrite(AmarilloW, LOW);
+    digitalWrite(VerdeW, HIGH);
+
+    digitalWrite(RojoE, HIGH);
+    digitalWrite(AmarilloE, LOW);
+    digitalWrite(VerdeE, LOW);
+}
+
+void loop() {
+    delay(flowTime);    
+   //  Cambio del semaforo W-E  a E-W    
+    digitalWrite(VerdeW, LOW);
+    blinkYellow(AmarilloW);      
+    
+    digitalWrite(RojoW, HIGH);
+    digitalWrite(RojoE, LOW);
+    digitalWrite(VerdeE, HIGH);
+
+    delay(flowTime);
+    //  Cambio del semaforo E-W  a W-E 
+    digitalWrite(VerdeE, LOW);
+    blinkYellow(AmarilloE);      
+    
+    digitalWrite(RojoE, HIGH);
+    digitalWrite(RojoW, LOW);
+    digitalWrite(VerdeW, HIGH);
+}
