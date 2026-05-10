@@ -1,3 +1,4 @@
+//Practica 10: ADC
 #include<Arduino.h>
 
 // Potenciometro conectado al GPIO 34 (Analog ADC1_CH6) 
