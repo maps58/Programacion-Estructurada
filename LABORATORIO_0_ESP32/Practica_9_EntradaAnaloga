@@ -1,11 +1,11 @@
-//Practica 8
+//Practica 8: Señales Analógicas.
 
 #include<Arduino.h>
 
-// Potentiometer is connected to GPIO 34 (Analog ADC1_CH6) 
+// Potenciometro esta connectado al GPIO 34 (Analog ADC1_CH6) 
 const int potPin = 34;
 
-// variable for storing the potentiometer value
+// variable para almacenar el valor del potenciometro
 int potValue = 0;
 
 void setup() {
@@ -14,7 +14,7 @@ void setup() {
 }
 
 void loop() {
-  // Reading potentiometer value
+  // Leyendo el valor del potenciometro
   potValue = analogRead(potPin);
   Serial.println(potValue);
   delay(50);
