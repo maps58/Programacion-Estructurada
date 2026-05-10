@@ -1,3 +1,4 @@
+//Practica 11: ADC con mayor precision
 #include <Arduino.h>
 const int potPin = 34;
 
